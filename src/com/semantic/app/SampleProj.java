@@ -1,5 +1,6 @@
 package com.semantic.app;
-
+import java.util.Scanner;
+import java.util.Scanner.*;
 public class SampleProj {
 
   public static String reverseString(String str){
@@ -12,14 +13,11 @@ public class SampleProj {
   public static void main(String[] args) {
     System.out.println("welcome to new got world");
 
-    Scanner scn = new Scanner(System.in);
+      Scanner scn=new Scanner(System.in);
     System.out.println("Enter any string");
     String name = scn.nextLine();
     System.out.println("Given String is :: "+name);
 
   }
-    public static void main(String[] args) {
-        System.out.println("welcome to new got world");
-        System.out.println("develope branch");
-    }
+
 }
