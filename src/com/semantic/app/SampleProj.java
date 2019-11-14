@@ -17,7 +17,6 @@ public class SampleProj {
     System.out.println("Enter any string");
     String name = scn.nextLine();
     System.out.println("Given String is :: "+name);
-
   }
 
 }
